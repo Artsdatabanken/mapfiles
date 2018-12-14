@@ -1,22 +1,3 @@
-
-  LAYER
-    INCLUDE '../headers/la'
-
-    NAME "LA"
-    PROCESSING "NATIVE_FILTER=code like 'LA-%'"
-    
-    CLASS
-       EXPRESSION /^LA-M.*$/
-       NAME "LA-M"
-       STYLE
-	 OUTLINECOLOR "#499fca"
-	 WIDTH 2
-         COLOR "#499fca"
-       END
-    END
-
-  END
-
   LAYER
     INCLUDE '../headers/la'
 

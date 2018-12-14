@@ -1,0 +1,79 @@
+MAP
+  #CONFIG "PROJ_LIB" "C:/inetpub/Webber/kart.artsdatabanken.no/Mapserver/nad/"
+  NAME NA
+  MAXSIZE 12000
+  IMAGECOLOR 125 125 125
+  SIZE 600 400
+  STATUS ON
+  #SHAPEPATH "C:/inetpub/Webber/kart.artsdatabanken.no/Mapserver/kartdata/Artskart"
+  PROJECTION
+    "init=epsg:32633"
+  END
+
+  INCLUDE "../outputformats"
+
+  EXTENT -78000.000 6448000.000 1116000.000 7940000.000 # World
+
+  #SYMBOLSET "symbols/symbols.sym"
+  #FONTSET   "fonts/fonts.txt"
+
+  WEB
+    IMAGEPATH "/tmp"
+    IMAGEURL "/output/"
+    METADATA
+      INCLUDE "../metadata"
+      "wms_onlineresource"  "https://nintest.artsdatabanken.no/?map=/maps/na/na.map&"
+    END
+  END
+  
+  QUERYMAP
+    STATUS OFF #ON
+    SIZE 200 200
+    STYLE HILITE
+    COLOR 255 255 0
+  END
+
+  LEGEND
+    STATUS ON
+    KEYSIZE 16 10
+    TRANSPARENT ON
+    LABEL
+      TYPE TRUETYPE
+      FONT 'arial'
+      SIZE 8
+      COLOR 1 1 1
+    END
+  END
+
+  LAYER
+    NAME "seksjoner2017"
+    DATA "../data/seksjoner2017_klasser_colorTable.tif"
+    TYPE RASTER
+    STATUS ON
+    OFFSITE 255 255 255
+    TEMPLATE "empty"
+    METADATA
+      "wms_title" "Bioklimatiske seksjoner 2017"
+      "wms_extent" "-78000.000 6448000.000 1116000.000 7940000.000"
+      "ows_enable_request" "*"
+	  "wms_include_items" "value_0"
+      "gml_include_items" "value_0"
+    END
+  END
+
+  LAYER
+    NAME "soner2017"
+    DATA "../data/soner2017_klasser_colorTable.tif"
+    TYPE RASTER
+    STATUS ON
+    OFFSITE 255 255 255
+    TEMPLATE "empty"
+    METADATA
+      "wms_title" "Bioklimatiske soner 2017"
+      "wms_extent" "-78000.000 6448000.000 1116000.000 7940000.000"
+      "ows_enable_request" "*"
+	  "wms_include_items" "value_0"
+      "gml_include_items" "value_0"
+    END
+  END
+END

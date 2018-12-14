@@ -1,0 +1,26 @@
+MAP
+  DEBUG ON
+  DEBUG 5
+  CONFIG "MS_ERRORFILE" "/tmp/la.error.log"
+  NAME LA
+  EXTENT -78000.000 6448000.000 1116000.000 7940000.000 # World
+
+  INCLUDE "../header"
+
+  WEB
+    IMAGEPATH "/tmp"
+    IMAGEURL "/output/"
+    METADATA
+      INCLUDE "../metadata"
+      "ows_title" "Landskapsdata"
+      "ows_abstract" "Artsdatabanken publiserer via denne tjenesten data for Landskap"
+      "ows_keywordlist" "Landskap"
+      "wms_onlineresource"  "https://nintest.artsdatabanken.no/?map=/maps/mapfiles/la.map&"
+    END
+  END
+
+  INCLUDE "../footer"
+
+  INCLUDE "../layers/la.all"
+
+END

@@ -1,0 +1,14 @@
+   STATUS ON
+    INCLUDE "../config/bigbadabom"
+    TYPE POLYGON
+    DATA "geography from data.v_geometry using unique id using srid=4326"
+    PROJECTION
+      "init=epsg:4326"
+    END
+    METADATA
+      "wms_srs" "epsg:4326"
+#      "wms_title" "Landskap"
+      "wms_extent" "-0.968659 57.7478 31.9628 71.5612"
+      "ows_enable_request" "*"
+    END
+    CLASSITEM "code"

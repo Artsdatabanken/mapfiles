@@ -10,5 +10,8 @@
 #      "wms_title" "Landskap"
       "wms_extent" "-0.968659 57.7478 31.9628 71.5612"
       "ows_enable_request" "*"
+      "wfs_srs"           "EPSG:4326" 
+      "gml_include_items" "all"
+      "gml_featureid"     "id"
     END
     CLASSITEM "code"

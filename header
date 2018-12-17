@@ -12,5 +12,5 @@
 
 
   #SYMBOLSET "symbols/symbols.sym"
-  #FONTSET   "fonts/fonts.txt"
+  FONTSET   "../fonts/fonts.txt"
 

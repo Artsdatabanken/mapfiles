@@ -1,9 +1,20 @@
+
   LAYER
     INCLUDE '../headers/la'
 
     NAME "LA-M"
     PROCESSING "NATIVE_FILTER=code like 'LA-M-%'"
     
+    CLASS
+       EXPRESSION /^LA-M-A.*$/
+       NAME "LA-M-A"
+       STYLE
+	 OUTLINECOLOR "#dde8ee"
+	 WIDTH 2
+         COLOR "#dde8ee"
+       END
+    END
+
     CLASS
        EXPRESSION /^LA-M-D.*$/
        NAME "LA-M-D"
@@ -24,16 +35,6 @@
        END
     END
 
-    CLASS
-       EXPRESSION /^LA-M-A.*$/
-       NAME "LA-M-A"
-       STYLE
-	 OUTLINECOLOR "#dde8ee"
-	 WIDTH 2
-         COLOR "#dde8ee"
-       END
-    END
-
   END
 
   LAYER
@@ -49,6 +50,86 @@
 	 OUTLINECOLOR "#c3cfa5"
 	 WIDTH 2
          COLOR "#c3cfa5"
+       END
+    END
+
+    CLASS
+       EXPRESSION /^LA-I-A-2.*$/
+       NAME "LA-I-A-2"
+       STYLE
+	 OUTLINECOLOR "#dfc496"
+	 WIDTH 2
+         COLOR "#dfc496"
+       END
+    END
+
+    CLASS
+       EXPRESSION /^LA-I-A-3.*$/
+       NAME "LA-I-A-3"
+       STYLE
+	 OUTLINECOLOR "#c1caaa"
+	 WIDTH 2
+         COLOR "#c1caaa"
+       END
+    END
+
+    CLASS
+       EXPRESSION /^LA-I-A-4.*$/
+       NAME "LA-I-A-4"
+       STYLE
+	 OUTLINECOLOR "#d9c29b"
+	 WIDTH 2
+         COLOR "#d9c29b"
+       END
+    END
+
+    CLASS
+       EXPRESSION /^LA-I-A-5.*$/
+       NAME "LA-I-A-5"
+       STYLE
+	 OUTLINECOLOR "#c0c7ad"
+	 WIDTH 2
+         COLOR "#c0c7ad"
+       END
+    END
+
+    CLASS
+       EXPRESSION /^LA-I-A-6.*$/
+       NAME "LA-I-A-6"
+       STYLE
+	 OUTLINECOLOR "#d6c19f"
+	 WIDTH 2
+         COLOR "#d6c19f"
+       END
+    END
+
+    CLASS
+       EXPRESSION /^LA-I-A-7.*$/
+       NAME "LA-I-A-7"
+       STYLE
+	 OUTLINECOLOR "#bfc4b0"
+	 WIDTH 2
+         COLOR "#bfc4b0"
+       END
+    END
+
+    CLASS
+       EXPRESSION /^LA-I-A-8.*$/
+       NAME "LA-I-A-8"
+       STYLE
+	 OUTLINECOLOR "#c6c9ab"
+	 WIDTH 2
+         COLOR "#c6c9ab"
+       END
+    END
+
+    CLASS
+       EXPRESSION /^LA-I-A-9.*$/
+       NAME "LA-I-A-9"
+       STYLE
+	 OUTLINECOLOR "#dbc099"
+	 WIDTH 2
+         COLOR "#dbc099"
        END
     END
 
@@ -153,16 +234,6 @@
     END
 
     CLASS
-       EXPRESSION /^LA-I-A-2.*$/
-       NAME "LA-I-A-2"
-       STYLE
-	 OUTLINECOLOR "#dfc496"
-	 WIDTH 2
-         COLOR "#dfc496"
-       END
-    END
-
-    CLASS
        EXPRESSION /^LA-I-A-20.*$/
        NAME "LA-I-A-20"
        STYLE
@@ -259,16 +330,6 @@
 	 OUTLINECOLOR "#cad2b7"
 	 WIDTH 2
          COLOR "#cad2b7"
-       END
-    END
-
-    CLASS
-       EXPRESSION /^LA-I-A-3.*$/
-       NAME "LA-I-A-3"
-       STYLE
-	 OUTLINECOLOR "#c1caaa"
-	 WIDTH 2
-         COLOR "#c1caaa"
        END
     END
 
@@ -373,16 +434,6 @@
     END
 
     CLASS
-       EXPRESSION /^LA-I-A-4.*$/
-       NAME "LA-I-A-4"
-       STYLE
-	 OUTLINECOLOR "#d9c29b"
-	 WIDTH 2
-         COLOR "#d9c29b"
-       END
-    END
-
-    CLASS
        EXPRESSION /^LA-I-A-40.*$/
        NAME "LA-I-A-40"
        STYLE
@@ -483,16 +534,6 @@
     END
 
     CLASS
-       EXPRESSION /^LA-I-A-5.*$/
-       NAME "LA-I-A-5"
-       STYLE
-	 OUTLINECOLOR "#c0c7ad"
-	 WIDTH 2
-         COLOR "#c0c7ad"
-       END
-    END
-
-    CLASS
        EXPRESSION /^LA-I-A-50.*$/
        NAME "LA-I-A-50"
        STYLE
@@ -542,46 +583,6 @@
        END
     END
 
-    CLASS
-       EXPRESSION /^LA-I-A-6.*$/
-       NAME "LA-I-A-6"
-       STYLE
-	 OUTLINECOLOR "#d6c19f"
-	 WIDTH 2
-         COLOR "#d6c19f"
-       END
-    END
-
-    CLASS
-       EXPRESSION /^LA-I-A-8.*$/
-       NAME "LA-I-A-8"
-       STYLE
-	 OUTLINECOLOR "#c6c9ab"
-	 WIDTH 2
-         COLOR "#c6c9ab"
-       END
-    END
-
-    CLASS
-       EXPRESSION /^LA-I-A-7.*$/
-       NAME "LA-I-A-7"
-       STYLE
-	 OUTLINECOLOR "#bfc4b0"
-	 WIDTH 2
-         COLOR "#bfc4b0"
-       END
-    END
-
-    CLASS
-       EXPRESSION /^LA-I-A-9.*$/
-       NAME "LA-I-A-9"
-       STYLE
-	 OUTLINECOLOR "#dbc099"
-	 WIDTH 2
-         COLOR "#dbc099"
-       END
-    END
-
   END
 
   LAYER
@@ -601,62 +602,92 @@
     END
 
     CLASS
+       EXPRESSION /^LA-I-D-2.*$/
+       NAME "LA-I-D-2"
+       STYLE
+	 OUTLINECOLOR "#e0c79a"
+	 WIDTH 2
+         COLOR "#e0c79a"
+       END
+    END
+
+    CLASS
+       EXPRESSION /^LA-I-D-3.*$/
+       NAME "LA-I-D-3"
+       STYLE
+	 OUTLINECOLOR "#c3ceb1"
+	 WIDTH 2
+         COLOR "#c3ceb1"
+       END
+    END
+
+    CLASS
+       EXPRESSION /^LA-I-D-4.*$/
+       NAME "LA-I-D-4"
+       STYLE
+	 OUTLINECOLOR "#dbc69f"
+	 WIDTH 2
+         COLOR "#dbc69f"
+       END
+    END
+
+    CLASS
+       EXPRESSION /^LA-I-D-5.*$/
+       NAME "LA-I-D-5"
+       STYLE
+	 OUTLINECOLOR "#c2cbb3"
+	 WIDTH 2
+         COLOR "#c2cbb3"
+       END
+    END
+
+    CLASS
+       EXPRESSION /^LA-I-D-6.*$/
+       NAME "LA-I-D-6"
+       STYLE
+	 OUTLINECOLOR "#d7c5a2"
+	 WIDTH 2
+         COLOR "#d7c5a2"
+       END
+    END
+
+    CLASS
+       EXPRESSION /^LA-I-D-7.*$/
+       NAME "LA-I-D-7"
+       STYLE
+	 OUTLINECOLOR "#c8cdb1"
+	 WIDTH 2
+         COLOR "#c8cdb1"
+       END
+    END
+
+    CLASS
+       EXPRESSION /^LA-I-D-8.*$/
+       NAME "LA-I-D-8"
+       STYLE
+	 OUTLINECOLOR "#c6cab4"
+	 WIDTH 2
+         COLOR "#c6cab4"
+       END
+    END
+
+    CLASS
+       EXPRESSION /^LA-I-D-9.*$/
+       NAME "LA-I-D-9"
+       STYLE
+	 OUTLINECOLOR "#c9c8b6"
+	 WIDTH 2
+         COLOR "#c9c8b6"
+       END
+    END
+
+    CLASS
        EXPRESSION /^LA-I-D-10.*$/
        NAME "LA-I-D-10"
        STYLE
 	 OUTLINECOLOR "#c6c0b8"
 	 WIDTH 2
          COLOR "#c6c0b8"
-       END
-    END
-
-    CLASS
-       EXPRESSION /^LA-I-D-100.*$/
-       NAME "LA-I-D-100"
-       STYLE
-	 OUTLINECOLOR "#929faf"
-	 WIDTH 2
-         COLOR "#929faf"
-       END
-    END
-
-    CLASS
-       EXPRESSION /^LA-I-D-101.*$/
-       NAME "LA-I-D-101"
-       STYLE
-	 OUTLINECOLOR "#83aebe"
-	 WIDTH 2
-         COLOR "#83aebe"
-       END
-    END
-
-    CLASS
-       EXPRESSION /^LA-I-D-102.*$/
-       NAME "LA-I-D-102"
-       STYLE
-	 OUTLINECOLOR "#86adbb"
-	 WIDTH 2
-         COLOR "#86adbb"
-       END
-    END
-
-    CLASS
-       EXPRESSION /^LA-I-D-103.*$/
-       NAME "LA-I-D-103"
-       STYLE
-	 OUTLINECOLOR "#86aabb"
-	 WIDTH 2
-         COLOR "#86aabb"
-       END
-    END
-
-    CLASS
-       EXPRESSION /^LA-I-D-104.*$/
-       NAME "LA-I-D-104"
-       STYLE
-	 OUTLINECOLOR "#8a9eb7"
-	 WIDTH 2
-         COLOR "#8a9eb7"
        END
     END
 
@@ -747,16 +778,6 @@
 	 OUTLINECOLOR "#b3becc"
 	 WIDTH 2
          COLOR "#b3becc"
-       END
-    END
-
-    CLASS
-       EXPRESSION /^LA-I-D-2.*$/
-       NAME "LA-I-D-2"
-       STYLE
-	 OUTLINECOLOR "#e0c79a"
-	 WIDTH 2
-         COLOR "#e0c79a"
        END
     END
 
@@ -861,16 +882,6 @@
     END
 
     CLASS
-       EXPRESSION /^LA-I-D-3.*$/
-       NAME "LA-I-D-3"
-       STYLE
-	 OUTLINECOLOR "#c3ceb1"
-	 WIDTH 2
-         COLOR "#c3ceb1"
-       END
-    END
-
-    CLASS
        EXPRESSION /^LA-I-D-30.*$/
        NAME "LA-I-D-30"
        STYLE
@@ -911,22 +922,22 @@
     END
 
     CLASS
-       EXPRESSION /^LA-I-D-35.*$/
-       NAME "LA-I-D-35"
-       STYLE
-	 OUTLINECOLOR "#d5bd90"
-	 WIDTH 2
-         COLOR "#d5bd90"
-       END
-    END
-
-    CLASS
        EXPRESSION /^LA-I-D-34.*$/
        NAME "LA-I-D-34"
        STYLE
 	 OUTLINECOLOR "#bac6a4"
 	 WIDTH 2
          COLOR "#bac6a4"
+       END
+    END
+
+    CLASS
+       EXPRESSION /^LA-I-D-35.*$/
+       NAME "LA-I-D-35"
+       STYLE
+	 OUTLINECOLOR "#d5bd90"
+	 WIDTH 2
+         COLOR "#d5bd90"
        END
     END
 
@@ -967,16 +978,6 @@
 	 OUTLINECOLOR "#bdc2a8"
 	 WIDTH 2
          COLOR "#bdc2a8"
-       END
-    END
-
-    CLASS
-       EXPRESSION /^LA-I-D-4.*$/
-       NAME "LA-I-D-4"
-       STYLE
-	 OUTLINECOLOR "#dbc69f"
-	 WIDTH 2
-         COLOR "#dbc69f"
        END
     END
 
@@ -1081,16 +1082,6 @@
     END
 
     CLASS
-       EXPRESSION /^LA-I-D-5.*$/
-       NAME "LA-I-D-5"
-       STYLE
-	 OUTLINECOLOR "#c2cbb3"
-	 WIDTH 2
-         COLOR "#c2cbb3"
-       END
-    END
-
-    CLASS
        EXPRESSION /^LA-I-D-50.*$/
        NAME "LA-I-D-50"
        STYLE
@@ -1191,16 +1182,6 @@
     END
 
     CLASS
-       EXPRESSION /^LA-I-D-6.*$/
-       NAME "LA-I-D-6"
-       STYLE
-	 OUTLINECOLOR "#d7c5a2"
-	 WIDTH 2
-         COLOR "#d7c5a2"
-       END
-    END
-
-    CLASS
        EXPRESSION /^LA-I-D-60.*$/
        NAME "LA-I-D-60"
        STYLE
@@ -1261,22 +1242,22 @@
     END
 
     CLASS
-       EXPRESSION /^LA-I-D-67.*$/
-       NAME "LA-I-D-67"
-       STYLE
-	 OUTLINECOLOR "#9cbaa2"
-	 WIDTH 2
-         COLOR "#9cbaa2"
-       END
-    END
-
-    CLASS
        EXPRESSION /^LA-I-D-66.*$/
        NAME "LA-I-D-66"
        STYLE
 	 OUTLINECOLOR "#cac286"
 	 WIDTH 2
          COLOR "#cac286"
+       END
+    END
+
+    CLASS
+       EXPRESSION /^LA-I-D-67.*$/
+       NAME "LA-I-D-67"
+       STYLE
+	 OUTLINECOLOR "#9cbaa2"
+	 WIDTH 2
+         COLOR "#9cbaa2"
        END
     END
 
@@ -1297,16 +1278,6 @@
 	 OUTLINECOLOR "#9eb7a4"
 	 WIDTH 2
          COLOR "#9eb7a4"
-       END
-    END
-
-    CLASS
-       EXPRESSION /^LA-I-D-7.*$/
-       NAME "LA-I-D-7"
-       STYLE
-	 OUTLINECOLOR "#c8cdb1"
-	 WIDTH 2
-         COLOR "#c8cdb1"
        END
     END
 
@@ -1411,16 +1382,6 @@
     END
 
     CLASS
-       EXPRESSION /^LA-I-D-8.*$/
-       NAME "LA-I-D-8"
-       STYLE
-	 OUTLINECOLOR "#c6cab4"
-	 WIDTH 2
-         COLOR "#c6cab4"
-       END
-    END
-
-    CLASS
        EXPRESSION /^LA-I-D-80.*$/
        NAME "LA-I-D-80"
        STYLE
@@ -1521,16 +1482,6 @@
     END
 
     CLASS
-       EXPRESSION /^LA-I-D-9.*$/
-       NAME "LA-I-D-9"
-       STYLE
-	 OUTLINECOLOR "#c9c8b6"
-	 WIDTH 2
-         COLOR "#c9c8b6"
-       END
-    END
-
-    CLASS
        EXPRESSION /^LA-I-D-90.*$/
        NAME "LA-I-D-90"
        STYLE
@@ -1611,6 +1562,16 @@
     END
 
     CLASS
+       EXPRESSION /^LA-I-D-98.*$/
+       NAME "LA-I-D-98"
+       STYLE
+	 OUTLINECOLOR "#8caab5"
+	 WIDTH 2
+         COLOR "#8caab5"
+       END
+    END
+
+    CLASS
        EXPRESSION /^LA-I-D-99.*$/
        NAME "LA-I-D-99"
        STYLE
@@ -1621,12 +1582,52 @@
     END
 
     CLASS
-       EXPRESSION /^LA-I-D-98.*$/
-       NAME "LA-I-D-98"
+       EXPRESSION /^LA-I-D-100.*$/
+       NAME "LA-I-D-100"
        STYLE
-	 OUTLINECOLOR "#8caab5"
+	 OUTLINECOLOR "#929faf"
 	 WIDTH 2
-         COLOR "#8caab5"
+         COLOR "#929faf"
+       END
+    END
+
+    CLASS
+       EXPRESSION /^LA-I-D-101.*$/
+       NAME "LA-I-D-101"
+       STYLE
+	 OUTLINECOLOR "#83aebe"
+	 WIDTH 2
+         COLOR "#83aebe"
+       END
+    END
+
+    CLASS
+       EXPRESSION /^LA-I-D-102.*$/
+       NAME "LA-I-D-102"
+       STYLE
+	 OUTLINECOLOR "#86adbb"
+	 WIDTH 2
+         COLOR "#86adbb"
+       END
+    END
+
+    CLASS
+       EXPRESSION /^LA-I-D-103.*$/
+       NAME "LA-I-D-103"
+       STYLE
+	 OUTLINECOLOR "#86aabb"
+	 WIDTH 2
+         COLOR "#86aabb"
+       END
+    END
+
+    CLASS
+       EXPRESSION /^LA-I-D-104.*$/
+       NAME "LA-I-D-104"
+       STYLE
+	 OUTLINECOLOR "#8a9eb7"
+	 WIDTH 2
+         COLOR "#8a9eb7"
        END
     END
 
@@ -1645,6 +1646,86 @@
 	 OUTLINECOLOR "#b4c785"
 	 WIDTH 2
          COLOR "#b4c785"
+       END
+    END
+
+    CLASS
+       EXPRESSION /^LA-I-S-2.*$/
+       NAME "LA-I-S-2"
+       STYLE
+	 OUTLINECOLOR "#d2c279"
+	 WIDTH 2
+         COLOR "#d2c279"
+       END
+    END
+
+    CLASS
+       EXPRESSION /^LA-I-S-3.*$/
+       NAME "LA-I-S-3"
+       STYLE
+	 OUTLINECOLOR "#b2c289"
+	 WIDTH 2
+         COLOR "#b2c289"
+       END
+    END
+
+    CLASS
+       EXPRESSION /^LA-I-S-4.*$/
+       NAME "LA-I-S-4"
+       STYLE
+	 OUTLINECOLOR "#cebf7e"
+	 WIDTH 2
+         COLOR "#cebf7e"
+       END
+    END
+
+    CLASS
+       EXPRESSION /^LA-I-S-5.*$/
+       NAME "LA-I-S-5"
+       STYLE
+	 OUTLINECOLOR "#b1bf8d"
+	 WIDTH 2
+         COLOR "#b1bf8d"
+       END
+    END
+
+    CLASS
+       EXPRESSION /^LA-I-S-6.*$/
+       NAME "LA-I-S-6"
+       STYLE
+	 OUTLINECOLOR "#cabd81"
+	 WIDTH 2
+         COLOR "#cabd81"
+       END
+    END
+
+    CLASS
+       EXPRESSION /^LA-I-S-7.*$/
+       NAME "LA-I-S-7"
+       STYLE
+	 OUTLINECOLOR "#afbc8f"
+	 WIDTH 2
+         COLOR "#afbc8f"
+       END
+    END
+
+    CLASS
+       EXPRESSION /^LA-I-S-8.*$/
+       NAME "LA-I-S-8"
+       STYLE
+	 OUTLINECOLOR "#b8c388"
+	 WIDTH 2
+         COLOR "#b8c388"
+       END
+    END
+
+    CLASS
+       EXPRESSION /^LA-I-S-9.*$/
+       NAME "LA-I-S-9"
+       STYLE
+	 OUTLINECOLOR "#b6bf8d"
+	 WIDTH 2
+         COLOR "#b6bf8d"
        END
     END
 
@@ -1749,16 +1830,6 @@
     END
 
     CLASS
-       EXPRESSION /^LA-I-S-2.*$/
-       NAME "LA-I-S-2"
-       STYLE
-	 OUTLINECOLOR "#d2c279"
-	 WIDTH 2
-         COLOR "#d2c279"
-       END
-    END
-
-    CLASS
        EXPRESSION /^LA-I-S-20.*$/
        NAME "LA-I-S-20"
        STYLE
@@ -1859,16 +1930,6 @@
     END
 
     CLASS
-       EXPRESSION /^LA-I-S-3.*$/
-       NAME "LA-I-S-3"
-       STYLE
-	 OUTLINECOLOR "#b2c289"
-	 WIDTH 2
-         COLOR "#b2c289"
-       END
-    END
-
-    CLASS
        EXPRESSION /^LA-I-S-30.*$/
        NAME "LA-I-S-30"
        STYLE
@@ -1938,66 +1999,6 @@
        END
     END
 
-    CLASS
-       EXPRESSION /^LA-I-S-4.*$/
-       NAME "LA-I-S-4"
-       STYLE
-	 OUTLINECOLOR "#cebf7e"
-	 WIDTH 2
-         COLOR "#cebf7e"
-       END
-    END
-
-    CLASS
-       EXPRESSION /^LA-I-S-5.*$/
-       NAME "LA-I-S-5"
-       STYLE
-	 OUTLINECOLOR "#b1bf8d"
-	 WIDTH 2
-         COLOR "#b1bf8d"
-       END
-    END
-
-    CLASS
-       EXPRESSION /^LA-I-S-7.*$/
-       NAME "LA-I-S-7"
-       STYLE
-	 OUTLINECOLOR "#afbc8f"
-	 WIDTH 2
-         COLOR "#afbc8f"
-       END
-    END
-
-    CLASS
-       EXPRESSION /^LA-I-S-6.*$/
-       NAME "LA-I-S-6"
-       STYLE
-	 OUTLINECOLOR "#cabd81"
-	 WIDTH 2
-         COLOR "#cabd81"
-       END
-    END
-
-    CLASS
-       EXPRESSION /^LA-I-S-8.*$/
-       NAME "LA-I-S-8"
-       STYLE
-	 OUTLINECOLOR "#b8c388"
-	 WIDTH 2
-         COLOR "#b8c388"
-       END
-    END
-
-    CLASS
-       EXPRESSION /^LA-I-S-9.*$/
-       NAME "LA-I-S-9"
-       STYLE
-	 OUTLINECOLOR "#b6bf8d"
-	 WIDTH 2
-         COLOR "#b6bf8d"
-       END
-    END
-
   END
 
   LAYER
@@ -2013,6 +2014,86 @@
 	 OUTLINECOLOR "#cfd7d8"
 	 WIDTH 2
          COLOR "#cfd7d8"
+       END
+    END
+
+    CLASS
+       EXPRESSION /^LA-K-F-2.*$/
+       NAME "LA-K-F-2"
+       STYLE
+	 OUTLINECOLOR "#d4d4d4"
+	 WIDTH 2
+         COLOR "#d4d4d4"
+       END
+    END
+
+    CLASS
+       EXPRESSION /^LA-K-F-3.*$/
+       NAME "LA-K-F-3"
+       STYLE
+	 OUTLINECOLOR "#eac6b3"
+	 WIDTH 2
+         COLOR "#eac6b3"
+       END
+    END
+
+    CLASS
+       EXPRESSION /^LA-K-F-4.*$/
+       NAME "LA-K-F-4"
+       STYLE
+	 OUTLINECOLOR "#d4d4d4"
+	 WIDTH 2
+         COLOR "#d4d4d4"
+       END
+    END
+
+    CLASS
+       EXPRESSION /^LA-K-F-5.*$/
+       NAME "LA-K-F-5"
+       STYLE
+	 OUTLINECOLOR "#d4d4d4"
+	 WIDTH 2
+         COLOR "#d4d4d4"
+       END
+    END
+
+    CLASS
+       EXPRESSION /^LA-K-F-6.*$/
+       NAME "LA-K-F-6"
+       STYLE
+	 OUTLINECOLOR "#c2e5de"
+	 WIDTH 2
+         COLOR "#c2e5de"
+       END
+    END
+
+    CLASS
+       EXPRESSION /^LA-K-F-7.*$/
+       NAME "LA-K-F-7"
+       STYLE
+	 OUTLINECOLOR "#c6e1db"
+	 WIDTH 2
+         COLOR "#c6e1db"
+       END
+    END
+
+    CLASS
+       EXPRESSION /^LA-K-F-8.*$/
+       NAME "LA-K-F-8"
+       STYLE
+	 OUTLINECOLOR "#b9c3c6"
+	 WIDTH 2
+         COLOR "#b9c3c6"
+       END
+    END
+
+    CLASS
+       EXPRESSION /^LA-K-F-9.*$/
+       NAME "LA-K-F-9"
+       STYLE
+	 OUTLINECOLOR "#bfbfbf"
+	 WIDTH 2
+         COLOR "#bfbfbf"
        END
     END
 
@@ -2117,16 +2198,6 @@
     END
 
     CLASS
-       EXPRESSION /^LA-K-F-2.*$/
-       NAME "LA-K-F-2"
-       STYLE
-	 OUTLINECOLOR "#d4d4d4"
-	 WIDTH 2
-         COLOR "#d4d4d4"
-       END
-    END
-
-    CLASS
        EXPRESSION /^LA-K-F-20.*$/
        NAME "LA-K-F-20"
        STYLE
@@ -2196,76 +2267,6 @@
        END
     END
 
-    CLASS
-       EXPRESSION /^LA-K-F-3.*$/
-       NAME "LA-K-F-3"
-       STYLE
-	 OUTLINECOLOR "#eac6b3"
-	 WIDTH 2
-         COLOR "#eac6b3"
-       END
-    END
-
-    CLASS
-       EXPRESSION /^LA-K-F-4.*$/
-       NAME "LA-K-F-4"
-       STYLE
-	 OUTLINECOLOR "#d4d4d4"
-	 WIDTH 2
-         COLOR "#d4d4d4"
-       END
-    END
-
-    CLASS
-       EXPRESSION /^LA-K-F-5.*$/
-       NAME "LA-K-F-5"
-       STYLE
-	 OUTLINECOLOR "#d4d4d4"
-	 WIDTH 2
-         COLOR "#d4d4d4"
-       END
-    END
-
-    CLASS
-       EXPRESSION /^LA-K-F-6.*$/
-       NAME "LA-K-F-6"
-       STYLE
-	 OUTLINECOLOR "#c2e5de"
-	 WIDTH 2
-         COLOR "#c2e5de"
-       END
-    END
-
-    CLASS
-       EXPRESSION /^LA-K-F-7.*$/
-       NAME "LA-K-F-7"
-       STYLE
-	 OUTLINECOLOR "#c6e1db"
-	 WIDTH 2
-         COLOR "#c6e1db"
-       END
-    END
-
-    CLASS
-       EXPRESSION /^LA-K-F-8.*$/
-       NAME "LA-K-F-8"
-       STYLE
-	 OUTLINECOLOR "#b9c3c6"
-	 WIDTH 2
-         COLOR "#b9c3c6"
-       END
-    END
-
-    CLASS
-       EXPRESSION /^LA-K-F-9.*$/
-       NAME "LA-K-F-9"
-       STYLE
-	 OUTLINECOLOR "#bfbfbf"
-	 WIDTH 2
-         COLOR "#bfbfbf"
-       END
-    END
-
   END
 
   LAYER
@@ -2285,6 +2286,86 @@
     END
 
     CLASS
+       EXPRESSION /^LA-K-S-2.*$/
+       NAME "LA-K-S-2"
+       STYLE
+	 OUTLINECOLOR "#cbb07c"
+	 WIDTH 2
+         COLOR "#cbb07c"
+       END
+    END
+
+    CLASS
+       EXPRESSION /^LA-K-S-3.*$/
+       NAME "LA-K-S-3"
+       STYLE
+	 OUTLINECOLOR "#9daaa9"
+	 WIDTH 2
+         COLOR "#9daaa9"
+       END
+    END
+
+    CLASS
+       EXPRESSION /^LA-K-S-4.*$/
+       NAME "LA-K-S-4"
+       STYLE
+	 OUTLINECOLOR "#c2ae84"
+	 WIDTH 2
+         COLOR "#c2ae84"
+       END
+    END
+
+    CLASS
+       EXPRESSION /^LA-K-S-5.*$/
+       NAME "LA-K-S-5"
+       STYLE
+	 OUTLINECOLOR "#9fa8a7"
+	 WIDTH 2
+         COLOR "#9fa8a7"
+       END
+    END
+
+    CLASS
+       EXPRESSION /^LA-K-S-6.*$/
+       NAME "LA-K-S-6"
+       STYLE
+	 OUTLINECOLOR "#8bbbb4"
+	 WIDTH 2
+         COLOR "#8bbbb4"
+       END
+    END
+
+    CLASS
+       EXPRESSION /^LA-K-S-7.*$/
+       NAME "LA-K-S-7"
+       STYLE
+	 OUTLINECOLOR "#9dca7d"
+	 WIDTH 2
+         COLOR "#9dca7d"
+       END
+    END
+
+    CLASS
+       EXPRESSION /^LA-K-S-8.*$/
+       NAME "LA-K-S-8"
+       STYLE
+	 OUTLINECOLOR "#90b6b1"
+	 WIDTH 2
+         COLOR "#90b6b1"
+       END
+    END
+
+    CLASS
+       EXPRESSION /^LA-K-S-9.*$/
+       NAME "LA-K-S-9"
+       STYLE
+	 OUTLINECOLOR "#bbc9c8"
+	 WIDTH 2
+         COLOR "#bbc9c8"
+       END
+    END
+
+    CLASS
        EXPRESSION /^LA-K-S-10.*$/
        NAME "LA-K-S-10"
        STYLE
@@ -2295,22 +2376,22 @@
     END
 
     CLASS
-       EXPRESSION /^LA-K-S-12.*$/
-       NAME "LA-K-S-12"
-       STYLE
-	 OUTLINECOLOR "#d5c6aa"
-	 WIDTH 2
-         COLOR "#d5c6aa"
-       END
-    END
-
-    CLASS
        EXPRESSION /^LA-K-S-11.*$/
        NAME "LA-K-S-11"
        STYLE
 	 OUTLINECOLOR "#bec6c6"
 	 WIDTH 2
          COLOR "#bec6c6"
+       END
+    END
+
+    CLASS
+       EXPRESSION /^LA-K-S-12.*$/
+       NAME "LA-K-S-12"
+       STYLE
+	 OUTLINECOLOR "#d5c6aa"
+	 WIDTH 2
+         COLOR "#d5c6aa"
        END
     END
 
@@ -2381,16 +2462,6 @@
 	 OUTLINECOLOR "#dce0e0"
 	 WIDTH 2
          COLOR "#dce0e0"
-       END
-    END
-
-    CLASS
-       EXPRESSION /^LA-K-S-2.*$/
-       NAME "LA-K-S-2"
-       STYLE
-	 OUTLINECOLOR "#cbb07c"
-	 WIDTH 2
-         COLOR "#cbb07c"
        END
     END
 
@@ -2495,16 +2566,6 @@
     END
 
     CLASS
-       EXPRESSION /^LA-K-S-3.*$/
-       NAME "LA-K-S-3"
-       STYLE
-	 OUTLINECOLOR "#9daaa9"
-	 WIDTH 2
-         COLOR "#9daaa9"
-       END
-    END
-
-    CLASS
        EXPRESSION /^LA-K-S-30.*$/
        NAME "LA-K-S-30"
        STYLE
@@ -2605,16 +2666,6 @@
     END
 
     CLASS
-       EXPRESSION /^LA-K-S-4.*$/
-       NAME "LA-K-S-4"
-       STYLE
-	 OUTLINECOLOR "#c2ae84"
-	 WIDTH 2
-         COLOR "#c2ae84"
-       END
-    END
-
-    CLASS
        EXPRESSION /^LA-K-S-40.*$/
        NAME "LA-K-S-40"
        STYLE
@@ -2655,22 +2706,22 @@
     END
 
     CLASS
-       EXPRESSION /^LA-K-S-45.*$/
-       NAME "LA-K-S-45"
-       STYLE
-	 OUTLINECOLOR "#e2b59d"
-	 WIDTH 2
-         COLOR "#e2b59d"
-       END
-    END
-
-    CLASS
        EXPRESSION /^LA-K-S-44.*$/
        NAME "LA-K-S-44"
        STYLE
 	 OUTLINECOLOR "#aec9d6"
 	 WIDTH 2
          COLOR "#aec9d6"
+       END
+    END
+
+    CLASS
+       EXPRESSION /^LA-K-S-45.*$/
+       NAME "LA-K-S-45"
+       STYLE
+	 OUTLINECOLOR "#e2b59d"
+	 WIDTH 2
+         COLOR "#e2b59d"
        END
     END
 
@@ -2711,16 +2762,6 @@
 	 OUTLINECOLOR "#abd7d8"
 	 WIDTH 2
          COLOR "#abd7d8"
-       END
-    END
-
-    CLASS
-       EXPRESSION /^LA-K-S-5.*$/
-       NAME "LA-K-S-5"
-       STYLE
-	 OUTLINECOLOR "#9fa8a7"
-	 WIDTH 2
-         COLOR "#9fa8a7"
        END
     END
 
@@ -2825,16 +2866,6 @@
     END
 
     CLASS
-       EXPRESSION /^LA-K-S-6.*$/
-       NAME "LA-K-S-6"
-       STYLE
-	 OUTLINECOLOR "#8bbbb4"
-	 WIDTH 2
-         COLOR "#8bbbb4"
-       END
-    END
-
-    CLASS
        EXPRESSION /^LA-K-S-60.*$/
        NAME "LA-K-S-60"
        STYLE
@@ -2871,36 +2902,6 @@
 	 OUTLINECOLOR "#d0e8ec"
 	 WIDTH 2
          COLOR "#d0e8ec"
-       END
-    END
-
-    CLASS
-       EXPRESSION /^LA-K-S-7.*$/
-       NAME "LA-K-S-7"
-       STYLE
-	 OUTLINECOLOR "#9dca7d"
-	 WIDTH 2
-         COLOR "#9dca7d"
-       END
-    END
-
-    CLASS
-       EXPRESSION /^LA-K-S-8.*$/
-       NAME "LA-K-S-8"
-       STYLE
-	 OUTLINECOLOR "#90b6b1"
-	 WIDTH 2
-         COLOR "#90b6b1"
-       END
-    END
-
-    CLASS
-       EXPRESSION /^LA-K-S-9.*$/
-       NAME "LA-K-S-9"
-       STYLE
-	 OUTLINECOLOR "#bbc9c8"
-	 WIDTH 2
-         COLOR "#bbc9c8"
        END
     END
 

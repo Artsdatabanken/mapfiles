@@ -5,7 +5,7 @@
     PROJECTION
       "init=epsg:4326"
     END
-    TEMPLATE '/tmp/no.file.here'
+    TEMPLATE "../templates/la.html"
     METADATA
       "wms_srs" "epsg:4326"
 #      "wms_title" "Landskap"

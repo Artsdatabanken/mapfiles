@@ -6,11 +6,9 @@
       "wcs_label"           "LA-KLG-AI"  ### required
       "wcs_rangeset_name"   "100m"               ### required to support DescribeCoverage request
       "wcs_rangeset_label"  "100 meters"              ### required to support DescribeCoverage request
-      "wcs_srs" "EPSG:32633 EPSG:25833"
-      "wcs_formats" "GeoTIFF" # AAIGRID XYZ" # Gtiff" # AAIGRID"
+      "wcs_srs" "EPSG:32633 EPSG:25833 EPSG:32632 EPSG:25832 EPSG:32635 EPSG:25835"
+      "wcs_formats" "GeoTIFF"
       "wcs_resolution"             "100 100"
-     # "wcs_rangeset_nullvalue" "nan"
-     # "wcs_interval"              "-2290 2318"
       "wcs_enable_request" "*"
     END
   END
@@ -22,11 +20,9 @@
       "wcs_label"           "LA-KLG-JP"  ### required
       "wcs_rangeset_name"   "100m"               ### required to support DescribeCoverage request
       "wcs_rangeset_label"  "100 meters"              ### required to support DescribeCoverage request
-      "wcs_srs" "EPSG:32633 EPSG:25833"
-      "wcs_formats" "GeoTIFF" # AAIGRID XYZ" # Gtiff" # AAIGRID"
+      "wcs_srs" "EPSG:32633 EPSG:25833 EPSG:32632 EPSG:25832 EPSG:32635 EPSG:25835"
+      "wcs_formats" "GeoTIFF" 
       "wcs_resolution"             "100 100"
-     # "wcs_rangeset_nullvalue" "nan"
-     # "wcs_interval"              "-2290 2318"
       "wcs_enable_request" "*"
     END
   END
@@ -38,11 +34,9 @@
       "wcs_label"           "LA-KLG-KA"  ### required
       "wcs_rangeset_name"   "100m"               ### required to support DescribeCoverage request
       "wcs_rangeset_label"  "100 meters"              ### required to support DescribeCoverage request
-      "wcs_srs" "EPSG:32633 EPSG:25833"
-      "wcs_formats" "GeoTIFF" # AAIGRID XYZ" # Gtiff" # AAIGRID"
+      "wcs_srs" "EPSG:32633 EPSG:25833 EPSG:32632 EPSG:25832 EPSG:32635 EPSG:25835"
+      "wcs_formats" "GeoTIFF"
       "wcs_resolution"             "100 100"
-     # "wcs_rangeset_nullvalue" "nan"
-     # "wcs_interval"              "-2290 2318"
       "wcs_enable_request" "*"
     END
   END
@@ -54,11 +48,9 @@
       "wcs_label"           "LA-KLG-VP"  ### required
       "wcs_rangeset_name"   "100m"               ### required to support DescribeCoverage request
       "wcs_rangeset_label"  "100 meters"              ### required to support DescribeCoverage request
-      "wcs_srs" "EPSG:32633 EPSG:25833"
-      "wcs_formats" "GeoTIFF" # AAIGRID XYZ" # Gtiff" # AAIGRID"
+      "wcs_srs" "EPSG:32633 EPSG:25833 EPSG:32632 EPSG:25832 EPSG:32635 EPSG:25835"
+      "wcs_formats" "GeoTIFF" 
       "wcs_resolution"             "100 100"
-     # "wcs_rangeset_nullvalue" "nan"
-     # "wcs_interval"              "-2290 2318"
       "wcs_enable_request" "*"
     END
   END

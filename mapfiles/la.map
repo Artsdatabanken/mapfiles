@@ -22,5 +22,9 @@ MAP
   INCLUDE "../footer"
 
   INCLUDE "../layers/la.all"
-
+  
+  INCLUDE "../layers/la.wcs.k"
+  
+  INCLUDE "../layers/la.wcs.d"
+ 
 END

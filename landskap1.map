@@ -1,0 +1,51 @@
+MAP
+  DEBUG OFF
+  DEBUG 5
+  CONFIG "MS_ERRORFILE" "/tmp/landskap.error.log"
+
+  IMAGETYPE      PNG
+#  EXTENT         -97.238976 41.619778 -82.122902 49.385620
+  SIZE           800 600
+  SHAPEPATH      "./data/LA/"
+  IMAGECOLOR     255 0 255
+  PROJECTION
+    "init=epsg:32633"
+  END
+
+#  IMAGETYPE PNG24
+
+  WEB
+	METADATA 
+    		WMS_ENABLE_REQUEST "*" 
+	END
+  END
+
+  LAYER 
+    NAME         NiN_Landskapstyper
+    DATA         NiN_LA_komplett.shp
+ #   STATUS       OFF
+    TYPE         POLYGON
+
+    PROJECTION
+      "init=epsg:32633"
+    END
+
+#S_kode - LA-IA-38
+    CLASSITEM "S_kode"
+    CLASS
+        NAME "year-2005"
+        EXPRESSION "LA-IA-38"
+      STYLE
+        COLOR 20 241 23
+        OUTLINECOLOR 133 0 0
+      END
+    END
+
+    CLASS
+      STYLE
+        COLOR 246 0 0
+        OUTLINECOLOR 255 255 255
+      END
+    END
+  END 
+END

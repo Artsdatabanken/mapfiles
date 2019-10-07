@@ -1,0 +1,40 @@
+MAP
+  DEBUG OFF
+  DEBUG 5
+  CONFIG "MS_ERRORFILE" "/tmp/landskap.error.log"
+
+  IMAGETYPE      PNG
+#  EXTENT         -97.238976 41.619778 -82.122902 49.385620
+  SIZE           800 600
+  SHAPEPATH      "./data/LA/"
+  IMAGECOLOR     255 0 255
+  PROJECTION
+    "init=epsg:32633"
+  END
+
+#  IMAGETYPE PNG24
+
+  WEB
+	METADATA 
+    		WMS_ENABLE_REQUEST "*" 
+	END
+  END
+
+  LAYER 
+    NAME         NiN_Landskapstyper
+    DATA         NiN_LA_komplett.shp
+ #   STATUS       OFF
+    TYPE         POLYGON
+
+    PROJECTION
+      "init=epsg:32633"
+    END
+
+    CLASS
+      STYLE
+        COLOR 246 241 23
+        OUTLINECOLOR 0 88 0
+      END
+    END
+  END 
+END

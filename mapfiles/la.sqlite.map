@@ -1,0 +1,41 @@
+MAP
+  DEBUG ON
+  DEBUG 5
+  CONFIG "MS_ERRORFILE" "/tmp/la.sqlite.log"
+  NAME LA
+  EXTENT -78000.000 6448000.000 1116000.000 7940000.000 # World
+
+  IMAGETYPE png
+  INCLUDE "../header"
+
+  IMAGECOLOR 125 0 125
+#  PROJECTION
+#    "init=epsg:32633"
+#  END
+  WEB
+    METADATA
+      WFS_ENABLE_REQUEST "*"
+      WMS_ENABLE_REQUEST "*"
+    END
+  END
+
+
+  WEB
+    IMAGEPATH "/tmp"
+    IMAGEURL "/output/"
+    METADATA
+      INCLUDE "../metadata"
+      "ows_title" "Landskapsdata"
+      "ows_abstract" "Artsdatabanken publiserer via denne tjenesten data for Landskap"
+      "ows_keywordlist" "Landskap"
+      "wms_onlineresource"  "https://wms.artsdatabanken.no/?map=/maps/mapfiles/la.map&"
+    END
+  END
+
+  INCLUDE "../footer"
+
+  INCLUDE "../layers/la.sqlite.all"
+  INCLUDE "../layers/la.wcs.k"  
+  INCLUDE "../layers/la.wcs.d"
+ 
+END

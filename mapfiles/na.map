@@ -22,7 +22,7 @@ MAP
     IMAGEURL "/output/"
     METADATA
       INCLUDE "../metadata"
-      "wms_onlineresource"  "https://nintest.artsdatabanken.no/?map=/maps/na/na.map&"
+      "wms_onlineresource"  "https://wms.artsdatabanken.no/?map=/maps/na/na.map&"
     END
   END
   

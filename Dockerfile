@@ -1,10 +1,11 @@
 FROM camptocamp/mapserver
+RUN deluser www-data root
 RUN set -x \
-	&& addgroup -gid 1007 --system www-data \
-	&& adduser -uid 1007 -D --system -G www-data www-data
+	&& groupmod -gid 1007 www-data \
+	&& usermod -uid 1007 www-data
 RUN a2enmod rewrite
 
 COPY 000-default.conf /etc/apache2/sites-available/
 
-RUN chown -R www-data:www-data /etc/apache2/sites-avaliable
+RUN chown -R www-data:www-data /etc/apache2
 

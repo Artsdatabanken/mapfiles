@@ -1,7 +1,7 @@
 FROM camptocamp/mapserver
 RUN set -x \
-	&& groupadd -g 1007 -S www-data \
-	&& useradd -u 1007 -D -S -G www-data www-data
+	&& addgroup -gid 1007 --system www-data \
+	&& adduser -uid 1007 -D --system -G www-data www-data
 RUN a2enmod rewrite
 
 COPY 000-default.conf /etc/apache2/sites-available/

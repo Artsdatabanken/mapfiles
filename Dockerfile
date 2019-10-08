@@ -6,4 +6,4 @@ RUN groupmod -g 1007 www-data
 COPY docker/000-default.conf /etc/apache2/sites-available/
 
 RUN chown -R www-data:www-data /etc/apache2
-
+RUN chown -R www-data:www-data /var/log

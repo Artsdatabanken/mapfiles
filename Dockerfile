@@ -7,3 +7,4 @@ COPY docker/000-default.conf /etc/apache2/sites-available/
 
 RUN chown -R www-data:www-data /etc/apache2
 RUN chown -R www-data:www-data /var/log
+RUN chown -R www-data:www-data /var/lib/apache2/module/enabled_by_maint

@@ -1,7 +1,9 @@
 FROM camptocamp/mapserver
 RUN a2enmod rewrite
 RUN touch /var/log/mapserver.log
-RUN chown www-data:root /var/log/mapserver.log
+RUN chown www-data:www-data /var/log/mapserver.log
+RUN mkdir -p /var/run/apache2
+RUN chown -R www-data:www-data /var/run/apache2/
 
 COPY docker/start-server /usr/local/bin/
 COPY docker/000-default.conf /etc/apache2/sites-available/
